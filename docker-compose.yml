@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pandasaiui:
+    image: pandasaiui
+    build:
+      context: .
+      dockerfile: ./Dockerfile
